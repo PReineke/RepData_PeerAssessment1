@@ -122,6 +122,7 @@ weekend_frame <- data.frame(average = numeric(0),
                             weekday = character(0))
 interval_frame <- data.frame(interval = x_values)
 
+
 for (i in 0:471) {
         x <- i*5
         
